@@ -18,6 +18,9 @@ import (
 )
 
 func out(m string, a ...interface{}) {
+
+
+	
 	fmt.Fprintf(os.Stderr, m, a...)
 }
 
