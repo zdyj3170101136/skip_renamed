@@ -19,6 +19,7 @@ import (
 
 func out(m string, a ...interface{}) {
 	fmt.Fprintf(os.Stderr, m, a...)
+	测试添加一行
 }
 
 func checkErr(doing string, err error, args ...interface{}) {
